@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  transition: background-image 0.5s ease-in-out;
+}
+
+.controls {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+button {
+  margin-right: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: white;
+  text-shadow: 2px 2px 8px black;
+}
